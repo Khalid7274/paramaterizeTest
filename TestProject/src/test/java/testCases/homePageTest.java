@@ -23,7 +23,7 @@ public class homePageTest extends BaseClass{
 		inicilizeDriver();
 	}
 	
-	@Test@BeforeMethod(groups={"sanity","regression"})
+	@Test@BeforeMethod(groups={"regression"})
 	public void titleValidation() {
 		Log.startTest("loginTest");
 		Log.info("Home Page is Opened");
